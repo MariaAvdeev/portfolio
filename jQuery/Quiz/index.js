@@ -5,7 +5,7 @@ $(document).ready(function () {
   let score = 0;
 
   $.ajax({
-    url: "/quiz.json",
+    url: "quiz.json",
     method: "GET",
     dataType: "json",
     success: function (data) {
@@ -80,17 +80,17 @@ $(document).ready(function () {
       $("#progress").progressbar({
         max: difficulty,
         value: score,
-        create: function() {
+        create: function () {
           const value = $(this).progressbar("value");
-          
+
           if (value < 30) {
-            $(".ui-progressbar-value").css("background", "#ff5722"); 
+            $(".ui-progressbar-value").css("background", "#ff5722");
           } else if (value < 70) {
             $(".ui-progressbar-value").css("background", "#ffc107");
           } else {
-            $(".ui-progressbar-value").css("background", "#4caf50"); 
+            $(".ui-progressbar-value").css("background", "#4caf50");
           }
-        }
+        },
       });
       return;
     }

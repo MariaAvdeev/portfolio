@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+      body {
+        background-color: #ED4264;
+        color: #FEFCFE;
+        text-align: center;
+        font-family: "Fira Sans Condensed", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        align-items: center;
+      }
+      h1 {
+        font-size: 60px;
+      }
+
+      h2 {
+        font-weight: 300;
+      }
+      .main-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      .object {
+        margin-right: 10px;
+        border:2px outset white;
+        padding: 30px;
+        border-radius: 12px;
+        border-width: 60%;
+        background-color: #FFFFFF;
+        color: black;
+      }
+
+      img {
+        border-radius: 12px;
+      }
+      .columns {
+        display: flex;
+        align-items: left;
+        justify-content: space-around;
+        padding: 10px;
+        text-align: left;
+      }
+      .center {
+        text-align: center;
+        font-style: oblique;
+      }
+      .conteiner {
+        display: flex;
+        justify-content: space-around;
+      }
+      .conteiner1 {
+        padding: 10px 60px 10px 40px;
+      }
+      .container-column {
+        padding: 10px 60px 10px 10px;
+      }
+      .center i {
+        text-decoration: underline;
+      }
+      .header{
+          font-size: 45px;
+          font-weight: bold;
+        }
+        .body {
+          font-size: 18px;
+        }
+      .object2 {
+        
+        border: 2px outset white;
+        padding: 30px;
+        border-radius: 12px;
+        border-width: 40%;
+        background-color: #FFFFFF;
+        color: black;
+        font-family: "Fira Sans Condensed", sans-serif;
+      }
+
+      .text {
+        width: 70%;
+        border-radius: 5px;
+        height: 25px;
+        font-size: 18px;
+        background-color: #E4E4E4;
+        color: #B8B8B8;
+        padding: 10px 15px;
+        border: none;
+      }
+      .text1 {
+        width: 70%;
+        border-radius: 5px;
+        height: 67px;
+        font-size: 18px;
+        background-color: #E4E4E4;
+        color: #B8B8B8;
+        padding: 10px 15px;
+        border: none;
+        resize: none;
+      }
+      ::placeholder {
+        color:#B8B8B8;
+        opacity: 1; /* Firefox */
+      }
+      label {
+        text-align: left;
+        display: flex;
+      }
+      .control {
+        margin: 55px 0;
+      }
+
+      button {
+        background-color: #ED4266;
+        color: white;
+        border: none;
+        height: 40px;
+        border-radius: 10px;
+        width: 70%;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 10px;
+        padding: 15px;
+        cursor: pointer;
+      }
+    </style>
+    
+</head>
+<body>
+  <h1>Свяжитесь с нами</h1>
+  <h2>Есть вопросы или замечания? Просто напишыте нам сообщение1!</h2>
+  <div class="main-container">
+        <div class="object">
+          <img src="./image.png" />
+
+          <div class="columns conteiner">
+            <div class="conteiner1">
+              <h3>Сидней</h3>
+              <p>45 Пиррама роад, </br>Пирмонт Новый </br>Южный Уэльс 2022</p>
+            </div>
+      
+            <div class="container-column">
+              <h3>Мельбрун</h3>
+              <p>163 Colin St, </br>Мельбрун </br>Виктория 3000</p>
+            </div>
+      
+            <div class="container-column">
+              <h3>Лос-Анджелес</h3>
+              <p>340 Main St, Венецыя, </br> Калифорния 902291, 
+              </br>США</p>
+            </div>
+          </div>
+
+          <p class="center">Изоброжение из <i>Freepik</i></p>
+      </div> 
+
+    <div class="object">
+      <p class="header">Связатся</p>
+      <p class="body">У нас есть запрос или отзыв для нас? Заполните форму нижеб чтобы связатся с нашеи командой.</p>
+      
+      <form>
+        <div class="control">
+          <label for="name">Name</label>
+          <input class="text" type="text" placeholder="Enter your name" name="name" />
+        </div>
+  
+        <div class="control">
+          <label for="email">Email</label>
+          <input class="text" type="email" placeholder="Enter a valid email adress" name="email">
+        </div>
+  
+        <div class="control">
+          <label for="name">How can we help?</label>
+          <textarea class="text1"></textarea>
+        </div>
+  
+        <button type="submit">Представлять на рассмотрение</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

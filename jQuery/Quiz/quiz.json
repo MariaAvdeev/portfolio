@@ -1,0 +1,309 @@
+[
+    {
+        "question": "What does jQuery() function do?",
+        "options": [
+            "Selects an HTML element",
+            "Creates a new HTML element",
+            "Deletes an HTML element"
+        ],
+        "answers": [
+            0
+        ],
+        "difficulty": 0.1,
+        "time": 30
+    },
+    {
+        "question": "Which method is used to hide selected elements in jQuery?",
+        "options": [
+            "hide()",
+            "invisible()",
+            "hideElement()"
+        ],
+        "answers": [
+            0
+        ],
+        "difficulty": 0.1
+    },
+    {
+        "question": "How can you get the value of an input field using jQuery?",
+        "options": [
+            "$('input').val()",
+            "$('input').value()",
+            "$('input').getValue()"
+        ],
+        "answers": [
+            0
+        ],
+        "difficulty": 1,
+        "time": 45
+    },
+    {
+        "question": "Which jQuery method is used to attach a function to an event?",
+        "options": [
+            "on()",
+            "addEvent()",
+            "attach()"
+        ],
+        "answers": [
+            0
+        ],
+        "difficulty": 1
+    },
+    {
+        "question": "What is the purpose of the .ready() method in jQuery?",
+        "options": [
+            "To run a script when the document is ready",
+            "To load a new page",
+            "To initialize a jQuery plugin"
+        ],
+        "answers": [
+            0
+        ],
+        "difficulty": 1.5,
+        "time": 60
+    },
+    {
+        "question": "Which jQuery method can be used to change the text of an HTML element?",
+        "options": [
+            "text()",
+            "setText()",
+            "updateText()"
+        ],
+        "answers": [
+            0
+        ],
+        "difficulty": 1
+    },
+    {
+        "question": "How can you apply a CSS class to an element using jQuery?",
+        "options": [
+            "$('element').cssClass('className')",
+            "$('element').addClass('className')",
+            "$('element').setClass('className')"
+        ],
+        "answers": [
+            1
+        ],
+        "difficulty": 1.5,
+        "time": 45
+    },
+    {
+        "question": "What does the jQuery $.ajax() method do?",
+        "options": [
+            "Makes a server request",
+            "Creates an animation",
+            "Changes an HTML element's style"
+        ],
+        "answers": [
+            0
+        ],
+        "difficulty": 2,
+        "time": 60
+    },
+    {
+        "question": "Which jQuery method is used to remove an element from the DOM?",
+        "options": [
+            "delete()",
+            "remove()",
+            "detach()"
+        ],
+        "answers": [
+            1
+        ],
+        "difficulty": 1.5
+    },
+    {
+        "question": "What is the difference between .empty() and .remove() in jQuery?",
+        "options": [
+            ".empty() removes content but keeps the element, .remove() removes the element itself",
+            ".empty() removes the element, .remove() keeps the content",
+            "There is no difference"
+        ],
+        "answers": [
+            0
+        ],
+        "difficulty": 2.5
+    },
+    {
+        "question": "Which method is used to traverse up the DOM tree in jQuery?",
+        "options": [
+            "parent()",
+            "child()",
+            "next()"
+        ],
+        "answers": [
+            0
+        ],
+        "difficulty": 1.5
+    },
+    {
+        "question": "How do you create an animation effect in jQuery?",
+        "options": [
+            "animate()",
+            "effect()",
+            "motion()"
+        ],
+        "answers": [
+            0
+        ],
+        "difficulty": 1.5
+    },
+    {
+        "question": "Which jQuery method can be used to find elements in the DOM based on a selector?",
+        "options": [
+            "find()",
+            "select()",
+            "query()"
+        ],
+        "answers": [
+            0
+        ],
+        "difficulty": 1.5
+    },
+    {
+        "question": "What method would you use to get the attribute value of an element?",
+        "options": [
+            "attr()",
+            "getAttr()",
+            "attribute()"
+        ],
+        "answers": [
+            0
+        ],
+        "difficulty": 0.1
+    },
+    {
+        "question": "Which jQuery function is used to create a new HTML element?",
+        "options": [
+            "create()",
+            "newElement()",
+            "$('<tag>')"
+        ],
+        "answers": [
+            2
+        ],
+        "difficulty": 1.5
+    },
+    {
+        "question": "What does the jQuery .css() method do?",
+        "options": [
+            "Gets or sets the CSS properties",
+            "Changes the HTML content",
+            "Creates CSS styles"
+        ],
+        "answers": [
+            0
+        ],
+        "difficulty": 0.1,
+        "time": 30
+    },
+    {
+        "question": "How can you prevent the default action of an event in jQuery?",
+        "options": [
+            "event.preventDefault()",
+            "preventDefault(event)",
+            "stopDefault()"
+        ],
+        "answers": [
+            0
+        ],
+        "difficulty": 1
+    },
+    {
+        "question": "What jQuery method can be used to listen for a click event?",
+        "options": [
+            "click()",
+            "onClick()",
+            "addEvent()"
+        ],
+        "answers": [
+            0
+        ],
+        "difficulty": 0.1
+    },
+    {
+        "question": "How do you chain multiple jQuery methods?",
+        "options": [
+            "Use semicolons",
+            "Use commas",
+            "Call methods one after the other"
+        ],
+        "answers": [
+            2
+        ],
+        "difficulty": 1.5
+    },
+    {
+        "question": "Which jQuery method is used to get the number of elements in a jQuery object?",
+        "options": [
+            "size()",
+            "length()",
+            "count()"
+        ],
+        "answers": [
+            1
+        ],
+        "difficulty": 1.5
+    },
+    {
+        "question": "What does the .siblings() method do in jQuery?",
+        "options": [
+            "Gets all sibling elements",
+            "Gets only the next sibling",
+            "Gets the parent element"
+        ],
+        "answers": [
+            0
+        ],
+        "difficulty": 1.5
+    },
+    {
+        "question": "Which methods can be used to get the current value of an element?",
+        "options": [
+            "val()",
+            "text()",
+            "html()",
+            "attr()"
+        ],
+        "answers": [
+            0,
+            1
+        ],
+        "difficulty": 1.5
+    },
+    {
+        "question": "Which of the following are valid ways to select elements in jQuery?",
+        "options": [
+            "$('.className')",
+            "$('#idName')",
+            "$('elementName')",
+            "$('elementName.className')"
+        ],
+        "answers": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "difficulty": 2.5
+    },
+    {
+        "question": "What is the purpose of the jQuery function you created?",
+        "options": [],
+        "answers": [
+            "To simplify DOM manipulation"
+        ],
+        "difficulty": 2.5
+    },
+    {
+        "question": "What are the advantages of using jQuery?",
+        "options": [],
+        "answers": [
+            "Cross-browser compatibility",
+            "Simplified syntax",
+            "Animation effects",
+            "AJAX support"
+        ],
+        "difficulty": 3
+    }
+]

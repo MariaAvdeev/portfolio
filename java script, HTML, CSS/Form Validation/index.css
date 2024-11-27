@@ -1,0 +1,54 @@
+ body {
+    background-color: rgb(231, 233, 235);
+ }
+ #form {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    margin: 20px;
+    align-items: center;
+    border-radius: 2%;
+    padding: 20px;
+ }
+h1 {
+    color: grey;
+}
+#info {
+    width: 230px;
+    height: 20px;
+    background-color: cornsilk;
+    border-width: 1px;
+    border-color:  rgb(15, 15, 15);
+    color: red;
+    font-style: italic;
+    margin: 10px;
+}
+input {
+    border-width: 1px;
+    border-color: rgb(241, 216, 182);
+    width: 230px;
+    height: 20px;
+    margin: 5px;
+}
+label {
+    color: grey;
+    font-weight: bold;
+    font-style: italic;
+}
+small {
+    color: red;
+}
+textarea {
+    width: 230px;
+    border-color: rgb(241, 216, 182);
+}
+button {
+    margin: 10px;
+    width: 100px;
+    background-color: cornsilk;
+    border-color: darkgoldenrod;
+    font-style: italic;
+}
+.required {
+    color: red;
+    font-weight: bold;
+}

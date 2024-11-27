@@ -1,0 +1,102 @@
+#logo {
+  background-color: #0e8dbc;
+  color: white;
+  font-weight: bolder;
+  font-style: inherit;
+  height: 80px;
+  align-items: center;
+  display: flex;
+  padding-left: 10px;
+}
+#name {
+  font-size: 24px;
+  padding-left: 10px;
+  height: 10px;
+}
+#description {
+  padding-left: 10px;
+}
+#quizForm {
+  border: 2px solid;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px;
+  background-color: hsla(0, 0%, 91%, 0.836);
+  border-color: #cfcfcf;
+}
+#quizForm ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: start;
+}
+h3 {
+  font-size: 18px;
+  color: rgb(99, 94, 94);
+}
+li {
+  list-style-type: none;
+}
+input[type="checkbox"] {
+  cursor: pointer;
+  background-color: #0e8dbc;
+}
+input[type="radio"]:disabled.success, input[type="checkbox"]:disabled.success {
+  appearance: none;
+  background-color: darkgreen;
+  border: 1px solid #cfcfcf;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  cursor: not-allowed;
+  display: inline-block;
+  position: relative;
+}
+input[type="radio"]:disabled.error, input[type="checkbox"]:disabled.error {
+  appearance: none;
+  background-color: coral;
+  border: 1px solid #cfcfcf;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  cursor: not-allowed;
+}
+input[type="text"]:disabled.success{
+  appearance: none;
+  border: 2px solid greenyellow;
+  cursor: not-allowed;
+}
+input[type="text"]:disabled.error {
+  appearance: none;
+  border: 1px solid coral;
+  cursor: not-allowed;
+}
+button
+ {
+  border-radius: 2px;
+  border-color: #cccccc;
+  height: 25px;
+  width: 100px;
+  background-color: #0e8dbc;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+button:disabled {
+  background-color: #cfcfcf;
+}
+#quizMain {
+  display: flex; /* Enable Flexbox */
+  flex-direction: column; /* Set items in a column */
+  justify-content: center; /* Center vertically */
+  align-items: center;
+  border: 1px solid;
+  border-color: #cccccc;
+  background-color: #edf2fa;
+}
+li.wrong {
+  box-shadow: 0 0 0 2px coral;
+}
+li.correct {
+  box-shadow: 0 0 0 2px forestgreen;
+}

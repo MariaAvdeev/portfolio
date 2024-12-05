@@ -80,7 +80,12 @@ This folder includes projects that use jQuery to simplify DOM manipulation and e
 
 ## 📂 **React**
 
-This folder is intended for React projects. (Currently no content is added yet.)
+### 💰 **ToDo App**
+- **Description**: Simple task manager
+- **Files**:
+  - `index.html`: Page layout.
+  - `src`: Directory with React source code
+  - `package.json`: Npm configuration files
 
 ---
 

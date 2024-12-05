@@ -80,7 +80,7 @@ This folder includes projects that use jQuery to simplify DOM manipulation and e
 
 ## 📂 **React**
 
-### 💰 **ToDo App**
+### 🗈 **ToDo App**
 - **Description**: Simple task manager
 - **Files**:
   - `index.html`: Page layout.

@@ -1,0 +1,209 @@
+body,
+html {
+  margin: 0px;
+  padding: 0;
+  background-color: #262628;
+  box-sizing: border-box;
+  height: 812px;
+}
+
+.container-main-boost {
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+  margin-top: 2.75rem;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.title-boost {
+  font-family: "ClashDisplay-Medium";
+  font-weight: 600;
+  font-size: 73px;
+  color: white;
+}
+
+.container-title-complete {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin-top: -20px;
+  gap: 8px;
+}
+
+.title-your {
+  font-family: "ClashDisplay-Medium";
+  font-weight: 600;
+  font-size: 40px;
+  color: #6a6a6d;
+}
+
+.title-mining {
+  font-family: "ClashDisplay-Medium";
+  font-weight: 600;
+  font-size: 40px;
+  color: white;
+}
+
+.container-result {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin-top: -10px;
+}
+
+.image-lightning {
+  width: 31px;
+  height: 37px;
+  margin-top: 7px;
+}
+
+.title-result {
+  font-family: "ClashDisplay-Medium";
+  font-weight: 600;
+  font-size: 40px;
+  color: #6a6a6d;
+}
+
+.container-energy {
+  background-color: #2e2e31;
+  width: 100%;
+  height: 62px;
+  border-radius: 8px;
+  margin-top: 80px;
+}
+
+.max-energy-nr {
+  font-family: "Gilroy-Regular";
+  font-weight: 500;
+  font-size: 11px;
+  color: #6a6a6d;
+  top: 16px;
+  margin-right: 65px;
+  position: relative;
+}
+.content-wrapper {
+  position: relative;
+  flex-direction: column;
+  justify-content: flex-end;
+  float: right;
+}
+
+.container-louding {
+  position: relative;
+}
+
+.info-increase {
+  font-family: "Gilroy-Regular";
+  font-size: 11px;
+  font-weight: 500;
+  color: #6a6a6d80;
+  width: 100%;
+  margin: 7px;
+  line-height: -2px;
+}
+
+.container-button-increase {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 36px;
+  margin-top: 15px;
+}
+
+.button-increase .star {
+  margin-left: 10px;
+}
+
+.button-increase {
+  background: linear-gradient(to right, #2c5dff, #1a3899);
+  border-radius: 8px;
+  width: 100%;
+  font-family: "Urbanist";
+  font-weight: 600;
+  font-size: 11px;
+  color: #ffffff;
+  border: none;
+}
+
+.container-turbo-mode {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 24px;
+}
+
+.container-turbo-mode-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.turbo-mod {
+  font-family: "ClashDisplay-Medium";
+  font-weight: 500;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.turbo-mode-descr {
+  font-family: "Gilroy-Regular";
+  font-weight: 500;
+  font-size: 11px;
+  color: #6a6a6d80;
+}
+
+.css-19opgx6-MuiFormControlLabel-root {
+  margin-right: 0px !important;
+}
+
+.container-supesonic-mode {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 24px;
+}
+
+.container-supersonic-mode-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.supersonic-mod {
+  font-family: "ClashDisplay-Medium";
+  font-weight: 500;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.supersonic-mode-descr {
+  font-family: "Gilroy-Regular";
+  font-weight: 500;
+  font-size: 11px;
+  color: #6a6a6d80;
+}
+
+.dimmed .title,
+.dimmed .container-energy,
+.dimmed .info-increase,
+.dimmed .container-button-increase,
+.dimmed .container-turbo-mode,
+.dimmed .container-supesonic-mode,
+.dimmed .latest-blacks,
+.dimmed .container-blacks {
+  filter: blur(5px);
+}
+
+.popup,
+.tab-container1 {
+  filter: blur(0px) !important;
+}
+
+.nav-boost {
+}

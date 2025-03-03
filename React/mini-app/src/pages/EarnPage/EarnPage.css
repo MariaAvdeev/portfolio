@@ -1,0 +1,329 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 812px;
+  box-sizing: border-box;
+  background: #262628;
+}
+
+.container-main-complete {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5%;
+  margin-top: 6rem;
+  max-width: 100%;
+  line-height: 40px;
+  gap: 10px;
+}
+
+.title-complete {
+  font-family: "ClashDisplay-Variable";
+  font-weight: 600;
+  font-size: 60px;
+  color: #ffffff;
+  justify-content: end;
+  display: flex;
+}
+
+.container-tasks-earn {
+  display: flex;
+  justify-content: end;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.tasks {
+  font-family: "ClashDisplay-Variable";
+  font-weight: 600;
+  font-size: 40px;
+  color: #6a6a6d;
+}
+
+.earn {
+  font-family: "ClashDisplay-Variable";
+  font-weight: 600;
+  font-size: 40px;
+  background: linear-gradient(to right, #2C5DFF, #1A3899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container-coin {
+  display: flex;
+  justify-content: end;
+  flex-direction: row;
+  margin-top: -24px;
+}
+
+.coins {
+  font-family: "ClashDisplay-Variable";
+  font-weight: 600;
+  font-size: 40px;
+  color: #6a6a6d;
+}
+
+.image-currency {
+  margin-top: 10px;
+  position: relative;
+  vertical-align: middle;
+  top: -11px;
+  margin-left: -14px;
+  margin-right: -25px;
+  width: 70px;
+  height: auto;
+}
+
+.container-main-users {
+  border-top-right-radius: 10px;
+  border-top: 1px solid #3b3b3c;
+  margin-right: 16px;
+  background: linear-gradient(to bottom, #3c3c3e, #262628);
+  height: 480px;
+  margin-top: -19px;
+}
+
+.container-button-tab {
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.MuiTabs-indicator {
+  position: absolute;
+  top: -1px;
+  width: 50px;
+  background: linear-gradient(
+    90deg,
+    rgb(56, 101, 245, 0) 0%,
+    rgb(56, 101, 245, 1) 50%,
+    rgb(56, 101, 245, 0) 100%
+  ) !important;
+}
+
+.partners.changed-style {
+border-bottom-left-radius: 0px !important;
+}
+
+.in-game.changed-style {
+  border-bottom-right-radius: 0px !important;
+}
+
+
+.limited-button {
+    background-color: #232324 !important;
+    border: none;
+    font-family: "ClashDisplay-Medium" !important;
+    font-size: 13.94px !important;
+    color: #707071 !important;
+    width: 34%;
+    border-bottom-right-radius: 10px !important;
+}
+.in-game {
+  color: #707071 !important;
+  background-color: #232324 !important;
+  width: 34%;
+  font-family: "ClashDisplay-Medium" !important;
+    font-size: 13.94px !important;
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+
+
+.limited-button.active,
+.in-game.active,
+.partners.active {
+  background:#39393b !important;
+  color: white !important;
+  font-weight: 400;
+}
+
+.partners {
+  color:  #707071 !important;
+  background-color: #232324 !important;
+  width: 32%;
+  font-family: "ClashDisplay-Medium" !important;
+    font-size: 13.94px !important;
+    border-bottom-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+}
+
+  .container-user-main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 95%;
+    margin-left: 13px;
+    margin-right: 10px;
+  }
+
+  .continer-user-button1 {
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 48px;
+    margin-top: 5px;
+  }
+
+  .container-user {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .icon-user {
+   width: 36px;
+   height: 48px; 
+  }
+
+  .container-info-user {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: baseline;
+  }
+
+  .add-mine-emojii {
+    font-family: "ClashDisplay-Variable";
+    font-weight: 500;
+    font-size: 15px;
+    color:#ffffff;
+  }
+
+  .button-claim-start {
+    width: 99px;
+    height: 36px;
+    background: linear-gradient(to right, #2C5DFF, #1A3899);
+    color: #ffffff;
+    border-radius: 9px;
+    font-family: "Urbanist";
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid #2C5DFF;
+    cursor: pointer;
+    text-align: center;
+    line-height: 36px;
+  }
+
+  .batton-bar {
+    background-color: white;
+    width: 134px;
+    height: 5px;
+    border-radius: 100px;
+    margin-bottom: 5px;
+  }
+  
+  .tab {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: -22px;
+  }
+  
+  .container-batton-bar {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 77px;
+    width: 100%;
+  }
+  
+  .tab button {
+    background-color: transparent;
+    border: none;
+    font-family: "ClashDisplay-Medium";
+    font-weight: 600;
+    font-size: 13.94px;
+    color: #6a6a6d;
+  }
+  
+  .tab button.boost.active::before {
+    content: "";
+    position: absolute;
+    top: 0; /* Position at the top of the button */
+    left: 0;
+    width: 100%;
+    height: 3px; /* Thickness of the border */
+    background: linear-gradient(
+      90deg,
+      rgba(56, 101, 245, 0) 0%,
+      rgba(56, 101, 245, 1) 50%,
+      rgba(56, 101, 245, 0) 100%
+    );
+    border-radius: 5px 5px 0 0; /* Smooth edges */
+    pointer-events: none;
+  }
+  
+  .image-button {
+    position: relative;
+    width: 27px;
+    height: 27px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 14px;
+    border: 10px solid transparent;
+    border-image: linear-gradient(
+        45deg,
+        rgba(255, 255, 255, 0) 30%,
+        rgba(255, 0, 0, 1) 100%
+      )
+      1;
+      z-index: 3;
+  }
+  
+  .image-button img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+  }
+  
+  .circle-around {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #495c9b;
+    transform: translate(-50%, -50%);
+    background-color: #283c7c;
+    outline: 10px solid #373739;
+    box-shadow: 0 0 5px 3px white;
+  }
+  
+  .dimmed .title,
+  .dimmed .secondary,
+  .dimmed .information-container,
+  .dimmed .tab-container,
+  .dimmed .container-send-request,
+  .dimmed .send-request,
+  .dimmed .latest-blacks,
+  .dimmed .container-blacks {
+    filter: blur(5px);
+  }
+  
+  .popup,
+  .tab-container {
+    filter: blur(0px) !important;
+  }
+  

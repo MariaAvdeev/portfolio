@@ -1,0 +1,102 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #262628;
+}
+
+.container-main-triumphs {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: white;
+  margin-top: 2.75rem;
+}
+
+.container-title-triumphs {
+  margin: 7%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title-track {
+  width: 310px;
+  height: 81px;
+  font-family: "ClashDisplay-Medium";
+  font-weight: 600;
+  font-size: 85px;
+  color: #ffffff;
+}
+
+.title-your-triumphs {
+  font-family: "ClashDisplay-Medium";
+  font-weight: 600;
+  font-size: 40px;
+  color: #6a6a6d;
+  margin-top: 2px;
+}
+
+.container-triumphs-img {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.rocket {
+  position: relative;
+  top: -10px;
+}
+
+.title-triumphs {
+  font-family: "ClashDisplay-Medium";
+  font-weight: 600;
+  font-size: 40px;
+  color: #ffffff;
+  margin-top: -6px;
+}
+
+.container-user-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: -20px;
+  position: relative;
+  top: -40px;
+  padding: 10px;
+}
+
+.container-portrait-crow {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nick-name-top-page {
+  text-align: center;
+  font-family: "ClashDisplay-Medium";
+  font-size: 15px;
+  font-weight: 500;
+  position: relative;
+  top: -32px;
+  left: -50px;
+}
+
+.crown {
+  display: block;
+  position: relative;
+  left: -63px;
+  top: 16px;
+  z-index: 999;
+}
+
+.portrait {
+  left: -61px;
+  top: -35px;
+  margin-top: 10px;
+  margin-left: 12px;
+  position: relative;
+}
